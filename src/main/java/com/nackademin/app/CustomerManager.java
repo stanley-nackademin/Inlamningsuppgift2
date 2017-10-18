@@ -138,7 +138,6 @@ public class CustomerManager {
         return foundCustomerList;
     }
 
-
     public static Customer getSpecificCustomerFromList(List<Customer> customerList, int index) {
         if (customerList.size() < index) {
             return customerList.get(index);
