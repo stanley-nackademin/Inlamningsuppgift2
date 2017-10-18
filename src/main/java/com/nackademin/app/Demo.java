@@ -33,7 +33,7 @@ public class Demo {
                         while (true) {
                             userInput = scanner.nextLine();
                             if (userInput.equalsIgnoreCase("j")) {
-                                //TODO
+
                                 CustomerManager.logCustomerTraining(foundCustomerList.get(0));
                                 System.out.println("\nMedlemmen har registrerats i träningsloggen!");
                                 break;
